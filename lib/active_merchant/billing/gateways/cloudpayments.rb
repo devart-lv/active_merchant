@@ -2,11 +2,11 @@ module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
     class CloudpaymentsGateway < Gateway
 
-      self.live_url             = 'https://api.cloudpayments.ru/'
+      self.live_url             = 'https://api.tiptoppay.kz/'
       self.default_currency     = 'RUB'
       self.supported_countries  = ['RU', 'AT', 'BE', 'BG', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'GI', 'DE', 'GR', 'HU', 'IS', 'IM', 'IE', 'IT', 'LV', 'LI', 'LT', 'LU', 'MT', 'MC', 'NL', 'NO', 'PL', 'PT', 'RO', 'SM', 'SK', 'SI', 'ES', 'SE', 'CH', 'TR', 'GB']
-      self.homepage_url         = 'http://cloudpayments.ru/'
-      self.display_name         = 'CloudPayments'
+      self.homepage_url         = 'http://tiptoppay.kz/'
+      self.display_name         = 'TipTop Pay'
       self.supported_cardtypes  = [:visa, :master, :american_express, :diners_club, :jcb]
 
       def initialize(options = {})
